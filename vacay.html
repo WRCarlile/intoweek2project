@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+   <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+   <link href="css/vacay.css" rel="stylesheet" type="text/css">
+   <script src="js/jquery-1.12.2.js"></script>
+   <script src="js/vacay.js"></script>
+   <title>Vacation Survey</title>
+ </head>
+ <body>
+   <div class="container">
+    <div class="jumbotron">
+      <img src="img/Island_Dream.jpg" class="img-responsive">
+      <h1>Vacation Survey</h1>
+    </div>
+     <form>
+       <p>What part of the world interests you?</p>
+       <select class="form-control" id="question1">
+         <option value="a">North America</option>
+         <option value="b">South America</option>
+         <option value="c">Europe</option>
+         <option value="d">Asia</option>
+       </select>
+
+       <p>What is your budget?</p>
+       <select class="form-control" id="question2">
+         <option value="a">$100-$200</option>
+         <option value="b">$200-$500</option>
+         <option value="c">$500-$1000</option>
+         <option value="d">$1000-$2000</option>
+       </select>
+       <p>Which language do you feel most comfortable with?</p>
+       <select class="form-control" id="question3">
+         <option value="a">English</option>
+         <option value="b">Spanish</option>
+         <option value="c">German</option>
+         <option value="d">Japanese</option>
+       </select>
+       <p>What type of Music do you like?</p>
+       <select class="form-control" id="question4">
+         <option value="a">Blues and Jazz Music</option>
+         <option value="b">Cumbia</option>
+         <option value="c">Techno</option>
+         <option value="d">Karaoke</option>
+       </select>
+       <p>What foods would you like to try?</p>
+       <select class="form-control" id="question5">
+         <option value="a">Deep Dish Pizza and Hot Dogs</option>
+         <option value="b">Beans and Rice</option>
+         <option value="c">Sausage and Kraut</option>
+         <option value="d">Sushi</option>
+       </select>
+
+
+         <button class="btn btn-default" >Submit</button>
+     </form>
+
+       <div class="resultA">
+         <p>You could visit Chicago</p>
+       </div>
+
+       <div class="resultB">
+         <p>You could visit Columbia</p>
+       </div>
+
+       <div class="resultC">
+         <p>You could visit Germany</p>
+       </div>
+
+       <div class="resultD">
+         <p>You could visit Japan</p>
+       </div>
+
+    </div>
+ </body>
+</html>
