@@ -1,12 +1,12 @@
 .resultA{
- +  display: none;
- +}
- +.resultB{
- +  display: none;
- +}
- +.resultC{
- +  display: none;
- +}
- +.resultD{
- +  display: none;
- +}
+ display: none;
+}
+.resultB{
+ display: none;
+}
+.resultC{
+ display: none;
+}
+.resultD{
+ display: none;
+}
