@@ -1,7 +1,7 @@
 # Ryan Carlile
 
-#### Landing Page for Ryan Carlile
-### http://wrcarlile.github.io
+#### Landing Page for a Vacation Survey 
+### http://wrcarlile.github.io/intoweek2project
 #### By Ryan Carlile
 
 ## Description
